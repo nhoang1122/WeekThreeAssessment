@@ -10,7 +10,7 @@ function handleSubmit(evt) {
 let profilePic = document.querySelector('#profile-pic')
 
 const alertUser = () => {
-	alert('GIVE USER COMPLIMENT!')
+	alert('Are you a beaver? Because DAMN!')
 } 
 
 profilePic.addEventListener('mouseover', alertUser);
