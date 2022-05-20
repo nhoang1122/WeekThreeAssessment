@@ -1,10 +1,12 @@
+
 body {
   background: #ddd;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Koulen', cursive;
+  font-size: 1em;
 }
 
 nav {
@@ -59,4 +61,70 @@ img {
 	display: block;
 	padding: 10px 38px;
 	background-color: yellow;
+	justify-content: space-around;
+}
+
+#interest-skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; 
+}
+
+#interest {
+	display: flex;
+	flex-direction: column;
+	border: 10px solid black;
+	text-align: justify;
+	padding: 10%;
+}
+
+#skills {
+	display: flex;
+	flex-direction: column;
+	border: 10px solid black;
+	text-align: justify;
+	padding: 10%;
+}
+
+#career-goals {
+	display: flex;
+	flex-direction: column;
+	border: 10px solid black;
+	text-align: justify;
+	padding: 10%;
+}
+
+#career-para {
+	line-height: 2em ;
+}
+
+#bio {
+	display: flex;
+	flex-direction: column;
+	padding: 10%;
+}
+
+#funny {
+	border: 10px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10%;
+}
+
+#dj {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10%;
+
+}
+
+#lukas {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 10%;
+
 }
