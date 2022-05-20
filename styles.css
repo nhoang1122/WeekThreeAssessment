@@ -109,22 +109,41 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 	padding: 10%;
 }
 
 #dj {
+	border: 10px solid black;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
 	padding: 10%;
-
 }
 
 #lukas {
-	
+	border: 10px solid black;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	padding: 10%;
+	align-items: center;
+}
 
+#youtube {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#anime {
+	display: flex;
+	align-items: center;
+}
+
+.youtube-video {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
